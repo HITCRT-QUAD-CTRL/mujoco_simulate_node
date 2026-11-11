@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="slalom_task">
+    <compiler angle="radian" meshdir="meshes" autolimits="true"/>
+    <option timestep="0.002" gravity="0 0 -9.81" wind="0 0 0" integrator="implicitfast"
+        density="1.225"
+        viscosity="1.8e-5" />
+    <visual>
+        <global realtime="1" />
+        <quality shadowsize="2048" numslices="28" offsamples="4" />
+        <headlight diffuse="1 1 1" specular="0.5 0.5 0.5" active="1" />
+        <rgba fog="1 0 0 1" haze="1 1 1 1" />
+    </visual>
+    
+    <asset>
+        <!-- 原有资源 -->
+        <texture type="skybox" file="./assets/desert.png"
+            gridsize="3 4" gridlayout=".U..LFRB.D.." />
+        <texture name="plane" type="2d" builtin="checker" rgb1=".1 .1 .1" rgb2=".9 .9 .9"
+            width="512" height="512" mark="cross" markrgb=".8 .8 .8" />
+        <material name="plane" reflectance="0.3" texture="plane" texrepeat="1 1" texuniform="true" />
+        
+        <!-- 新增：任务相关材质 -->
+        <!-- 竖杆颜色：橘黄色 rgba="1.0 0.65 0.0 1.0" -->
+        <material name="pole_mat" rgba="1.0 0.65 0.0 1.0" shininess="0.5" specular="0.5"/>
+        <!-- 必达区颜色：深色半透明 -->
+        <material name="zone_mat" rgba="0.8 0.4 0.1 0.8"/>
+    </asset>
+
+    <worldbody>
+        <geom name="floor" pos="0 0 0" size="10 10 .1" type="plane" material="plane" condim="3"/>
+        <light directional="true" ambient=".3 .3 .3" pos="30 30 30" dir="0 -2 -1"
+            diffuse=".5 .5 .5" specular=".5 .5 .5" />
+
+        <!-- ======================= 任务场景布局 ======================= -->
+        
+        <!-- 1. 竖杆 (Poles) -->
+        <!-- 高度设定：要求 >= 500mm。此处设为 600mm (size半高=0.3) -->
+        <!-- 坐标系：设 Pole 1 为原点 (0,0) -->
+
+        <!-- Pole 1: 起点杆 (0, 0) -->
+        <body name="pole_1" pos="0 0 0.3">
+            <geom type="cylinder" size="0.015 0.3" material="pole_mat"/>
+        </body>
+
+        <!-- Pole 2: 拐角杆 (向上 1000mm -> y=1.0) -->
+        <body name="pole_2" pos="0 1.0 0.3">
+            <geom type="cylinder" size="0.015 0.3" material="pole_mat"/>
+        </body>
+
+        <!-- Pole 3: 终点杆 (向右 1000mm -> x=1.0, y=1.0) -->
+        <body name="pole_3" pos="1.0 1.0 0.3">
+            <geom type="cylinder" size="0.015 0.3" material="pole_mat"/>
+        </body>
+
+        <!-- 2. 必达区 (Zones) -->
+        <!-- 直径 350mm -> 半径 0.175m -->
+        <!-- contype="0" conaffinity="0" 表示无碰撞，仅作为视觉标记 -->
+
+        <!-- Zone 1: 起点必达区 (距离起点杆 400mm -> y=-0.4) -->
+        <body name="zone_start" pos="0 -0.4 0.001">
+            <geom type="cylinder" size="0.175 0.001" material="zone_mat" contype="0" conaffinity="0"/>
+        </body>
+
+        <!-- Zone 2: 拐角必达区 (拐角外侧 300mm x 300mm) -->
+        <!-- 相对 Pole 2 (0, 1.0) 左上偏移 (-0.3, +0.3) -> (-0.3, 1.3) -->
+        <body name="zone_corner" pos="-0.3 1.3 0.001">
+            <geom type="cylinder" size="0.175 0.001" material="zone_mat" contype="0" conaffinity="0"/>
+        </body>
+
+        <!-- Zone 3: 终点必达区 (距离终点杆 400mm -> x=1.4) -->
+        <!-- 相对 Pole 3 (1.0, 1.0) 向右偏移 (+0.4) -> (1.4, 1.0) -->
+        <body name="zone_end" pos="1.4 1.0 0.001">
+            <geom type="cylinder" size="0.175 0.001" material="zone_mat" contype="0" conaffinity="0"/>
+        </body>
+
+    </worldbody>
+</mujoco>

@@ -1,0 +1,499 @@
+<geom name="stair_north1" type="box" pos="0 0.70 0.10" size="0.8 0.1 0.1" rgba="0.69 0.69 0.69 1"/>
+<geom name="stair_south1" type="box" pos="0 -0.70 0.10" size="0.8 0.1 0.1" rgba="0.69 0.69 0.69 1"/>
+<geom name="stair_east1"  type="box" pos="0.70 0 0.10" size="0.1 0.8 0.1" rgba="0.69 0.69 0.69 1"/>
+<geom name="stair_west1"  type="box" pos="-0.70 0 0.10" size="0.1 0.8 0.1" rgba="0.69 0.69 0.69 1"/>
+
+<geom name="stair_north2" type="box" pos="0 0.90 0.20" size="0.8 0.1 0.1" rgba="0.69 0.69 0.69 1"/>
+<geom name="stair_south2" type="box" pos="0 -0.90 0.20" size="0.8 0.1 0.1" rgba="0.69 0.69 0.69 1"/>
+<geom name="stair_east2"  type="box" pos="0.90 0 0.20" size="0.1 0.8 0.1" rgba="0.69 0.69 0.69 1"/>
+<geom name="stair_west2"  type="box" pos="-0.90 0 0.20" size="0.1 0.8 0.1" rgba="0.69 0.69 0.69 1"/>
+
+<geom name="stair_north3" type="box" pos="0 1.10 0.30" size="0.8 0.1 0.1" rgba="0.68 0.68 0.68 1"/>
+<geom name="stair_south3" type="box" pos="0 -1.10 0.30" size="0.8 0.1 0.1" rgba="0.68 0.68 0.68 1"/>
+<geom name="stair_east3"  type="box" pos="1.10 0 0.30" size="0.1 0.8 0.1" rgba="0.68 0.68 0.68 1"/>
+<geom name="stair_west3"  type="box" pos="-1.10 0 0.30" size="0.1 0.8 0.1" rgba="0.68 0.68 0.68 1"/>
+
+<geom name="stair_north4" type="box" pos="0 1.30 0.40" size="0.8 0.1 0.1" rgba="0.68 0.68 0.68 1"/>
+<geom name="stair_south4" type="box" pos="0 -1.30 0.40" size="0.8 0.1 0.1" rgba="0.68 0.68 0.68 1"/>
+<geom name="stair_east4"  type="box" pos="1.30 0 0.40" size="0.1 0.8 0.1" rgba="0.68 0.68 0.68 1"/>
+<geom name="stair_west4"  type="box" pos="-1.30 0 0.40" size="0.1 0.8 0.1" rgba="0.68 0.68 0.68 1"/>
+
+<geom name="stair_north5" type="box" pos="0 1.50 0.50" size="0.8 0.1 0.1" rgba="0.67 0.67 0.67 1"/>
+<geom name="stair_south5" type="box" pos="0 -1.50 0.50" size="0.8 0.1 0.1" rgba="0.67 0.67 0.67 1"/>
+<geom name="stair_east5"  type="box" pos="1.50 0 0.50" size="0.1 0.8 0.1" rgba="0.67 0.67 0.67 1"/>
+<geom name="stair_west5"  type="box" pos="-1.50 0 0.50" size="0.1 0.8 0.1" rgba="0.67 0.67 0.67 1"/>
+
+<geom name="stair_north6" type="box" pos="0 1.70 0.60" size="0.8 0.1 0.1" rgba="0.66 0.66 0.66 1"/>
+<geom name="stair_south6" type="box" pos="0 -1.70 0.60" size="0.8 0.1 0.1" rgba="0.66 0.66 0.66 1"/>
+<geom name="stair_east6"  type="box" pos="1.70 0 0.60" size="0.1 0.8 0.1" rgba="0.66 0.66 0.66 1"/>
+<geom name="stair_west6"  type="box" pos="-1.70 0 0.60" size="0.1 0.8 0.1" rgba="0.66 0.66 0.66 1"/>
+
+<geom name="stair_north7" type="box" pos="0 1.90 0.70" size="0.8 0.1 0.1" rgba="0.66 0.66 0.66 1"/>
+<geom name="stair_south7" type="box" pos="0 -1.90 0.70" size="0.8 0.1 0.1" rgba="0.66 0.66 0.66 1"/>
+<geom name="stair_east7"  type="box" pos="1.90 0 0.70" size="0.1 0.8 0.1" rgba="0.66 0.66 0.66 1"/>
+<geom name="stair_west7"  type="box" pos="-1.90 0 0.70" size="0.1 0.8 0.1" rgba="0.66 0.66 0.66 1"/>
+
+<geom name="stair_north8" type="box" pos="0 2.10 0.80" size="0.8 0.1 0.1" rgba="0.65 0.65 0.65 1"/>
+<geom name="stair_south8" type="box" pos="0 -2.10 0.80" size="0.8 0.1 0.1" rgba="0.65 0.65 0.65 1"/>
+<geom name="stair_east8"  type="box" pos="2.10 0 0.80" size="0.1 0.8 0.1" rgba="0.65 0.65 0.65 1"/>
+<geom name="stair_west8"  type="box" pos="-2.10 0 0.80" size="0.1 0.8 0.1" rgba="0.65 0.65 0.65 1"/>
+
+<geom name="stair_north9" type="box" pos="0 2.30 0.90" size="0.8 0.1 0.1" rgba="0.65 0.65 0.65 1"/>
+<geom name="stair_south9" type="box" pos="0 -2.30 0.90" size="0.8 0.1 0.1" rgba="0.65 0.65 0.65 1"/>
+<geom name="stair_east9"  type="box" pos="2.30 0 0.90" size="0.1 0.8 0.1" rgba="0.65 0.65 0.65 1"/>
+<geom name="stair_west9"  type="box" pos="-2.30 0 0.90" size="0.1 0.8 0.1" rgba="0.65 0.65 0.65 1"/>
+
+<geom name="stair_north10" type="box" pos="0 2.50 1.00" size="0.8 0.1 0.1" rgba="0.64 0.64 0.64 1"/>
+<geom name="stair_south10" type="box" pos="0 -2.50 1.00" size="0.8 0.1 0.1" rgba="0.64 0.64 0.64 1"/>
+<geom name="stair_east10"  type="box" pos="2.50 0 1.00" size="0.1 0.8 0.1" rgba="0.64 0.64 0.64 1"/>
+<geom name="stair_west10"  type="box" pos="-2.50 0 1.00" size="0.1 0.8 0.1" rgba="0.64 0.64 0.64 1"/>
+
+<geom name="stair_north11" type="box" pos="0 2.70 1.10" size="0.8 0.1 0.1" rgba="0.63 0.63 0.63 1"/>
+<geom name="stair_south11" type="box" pos="0 -2.70 1.10" size="0.8 0.1 0.1" rgba="0.63 0.63 0.63 1"/>
+<geom name="stair_east11"  type="box" pos="2.70 0 1.10" size="0.1 0.8 0.1" rgba="0.63 0.63 0.63 1"/>
+<geom name="stair_west11"  type="box" pos="-2.70 0 1.10" size="0.1 0.8 0.1" rgba="0.63 0.63 0.63 1"/>
+
+<geom name="stair_north12" type="box" pos="0 2.90 1.20" size="0.8 0.1 0.1" rgba="0.63 0.63 0.63 1"/>
+<geom name="stair_south12" type="box" pos="0 -2.90 1.20" size="0.8 0.1 0.1" rgba="0.63 0.63 0.63 1"/>
+<geom name="stair_east12"  type="box" pos="2.90 0 1.20" size="0.1 0.8 0.1" rgba="0.63 0.63 0.63 1"/>
+<geom name="stair_west12"  type="box" pos="-2.90 0 1.20" size="0.1 0.8 0.1" rgba="0.63 0.63 0.63 1"/>
+
+<geom name="stair_north13" type="box" pos="0 3.10 1.30" size="0.8 0.1 0.1" rgba="0.62 0.62 0.62 1"/>
+<geom name="stair_south13" type="box" pos="0 -3.10 1.30" size="0.8 0.1 0.1" rgba="0.62 0.62 0.62 1"/>
+<geom name="stair_east13"  type="box" pos="3.10 0 1.30" size="0.1 0.8 0.1" rgba="0.62 0.62 0.62 1"/>
+<geom name="stair_west13"  type="box" pos="-3.10 0 1.30" size="0.1 0.8 0.1" rgba="0.62 0.62 0.62 1"/>
+
+<geom name="stair_north14" type="box" pos="0 3.30 1.40" size="0.8 0.1 0.1" rgba="0.62 0.62 0.62 1"/>
+<geom name="stair_south14" type="box" pos="0 -3.30 1.40" size="0.8 0.1 0.1" rgba="0.62 0.62 0.62 1"/>
+<geom name="stair_east14"  type="box" pos="3.30 0 1.40" size="0.1 0.8 0.1" rgba="0.62 0.62 0.62 1"/>
+<geom name="stair_west14"  type="box" pos="-3.30 0 1.40" size="0.1 0.8 0.1" rgba="0.62 0.62 0.62 1"/>
+
+<geom name="stair_north15" type="box" pos="0 3.50 1.50" size="0.8 0.1 0.1" rgba="0.61 0.61 0.61 1"/>
+<geom name="stair_south15" type="box" pos="0 -3.50 1.50" size="0.8 0.1 0.1" rgba="0.61 0.61 0.61 1"/>
+<geom name="stair_east15"  type="box" pos="3.50 0 1.50" size="0.1 0.8 0.1" rgba="0.61 0.61 0.61 1"/>
+<geom name="stair_west15"  type="box" pos="-3.50 0 1.50" size="0.1 0.8 0.1" rgba="0.61 0.61 0.61 1"/>
+
+<geom name="stair_north16" type="box" pos="0 3.70 1.60" size="0.8 0.1 0.1" rgba="0.60 0.60 0.60 1"/>
+<geom name="stair_south16" type="box" pos="0 -3.70 1.60" size="0.8 0.1 0.1" rgba="0.60 0.60 0.60 1"/>
+<geom name="stair_east16"  type="box" pos="3.70 0 1.60" size="0.1 0.8 0.1" rgba="0.60 0.60 0.60 1"/>
+<geom name="stair_west16"  type="box" pos="-3.70 0 1.60" size="0.1 0.8 0.1" rgba="0.60 0.60 0.60 1"/>
+
+<geom name="stair_north17" type="box" pos="0 3.90 1.70" size="0.8 0.1 0.1" rgba="0.60 0.60 0.60 1"/>
+<geom name="stair_south17" type="box" pos="0 -3.90 1.70" size="0.8 0.1 0.1" rgba="0.60 0.60 0.60 1"/>
+<geom name="stair_east17"  type="box" pos="3.90 0 1.70" size="0.1 0.8 0.1" rgba="0.60 0.60 0.60 1"/>
+<geom name="stair_west17"  type="box" pos="-3.90 0 1.70" size="0.1 0.8 0.1" rgba="0.60 0.60 0.60 1"/>
+
+<geom name="stair_north18" type="box" pos="0 4.10 1.80" size="0.8 0.1 0.1" rgba="0.59 0.59 0.59 1"/>
+<geom name="stair_south18" type="box" pos="0 -4.10 1.80" size="0.8 0.1 0.1" rgba="0.59 0.59 0.59 1"/>
+<geom name="stair_east18"  type="box" pos="4.10 0 1.80" size="0.1 0.8 0.1" rgba="0.59 0.59 0.59 1"/>
+<geom name="stair_west18"  type="box" pos="-4.10 0 1.80" size="0.1 0.8 0.1" rgba="0.59 0.59 0.59 1"/>
+
+<geom name="stair_north19" type="box" pos="0 4.30 1.90" size="0.8 0.1 0.1" rgba="0.59 0.59 0.59 1"/>
+<geom name="stair_south19" type="box" pos="0 -4.30 1.90" size="0.8 0.1 0.1" rgba="0.59 0.59 0.59 1"/>
+<geom name="stair_east19"  type="box" pos="4.30 0 1.90" size="0.1 0.8 0.1" rgba="0.59 0.59 0.59 1"/>
+<geom name="stair_west19"  type="box" pos="-4.30 0 1.90" size="0.1 0.8 0.1" rgba="0.59 0.59 0.59 1"/>
+
+<geom name="stair_north20" type="box" pos="0 4.50 2.00" size="0.8 0.1 0.1" rgba="0.58 0.58 0.58 1"/>
+<geom name="stair_south20" type="box" pos="0 -4.50 2.00" size="0.8 0.1 0.1" rgba="0.58 0.58 0.58 1"/>
+<geom name="stair_east20"  type="box" pos="4.50 0 2.00" size="0.1 0.8 0.1" rgba="0.58 0.58 0.58 1"/>
+<geom name="stair_west20"  type="box" pos="-4.50 0 2.00" size="0.1 0.8 0.1" rgba="0.58 0.58 0.58 1"/>
+
+<geom name="stair_north21" type="box" pos="0 4.70 2.10" size="0.8 0.1 0.1" rgba="0.57 0.57 0.57 1"/>
+<geom name="stair_south21" type="box" pos="0 -4.70 2.10" size="0.8 0.1 0.1" rgba="0.57 0.57 0.57 1"/>
+<geom name="stair_east21"  type="box" pos="4.70 0 2.10" size="0.1 0.8 0.1" rgba="0.57 0.57 0.57 1"/>
+<geom name="stair_west21"  type="box" pos="-4.70 0 2.10" size="0.1 0.8 0.1" rgba="0.57 0.57 0.57 1"/>
+
+<geom name="stair_north22" type="box" pos="0 4.90 2.20" size="0.8 0.1 0.1" rgba="0.57 0.57 0.57 1"/>
+<geom name="stair_south22" type="box" pos="0 -4.90 2.20" size="0.8 0.1 0.1" rgba="0.57 0.57 0.57 1"/>
+<geom name="stair_east22"  type="box" pos="4.90 0 2.20" size="0.1 0.8 0.1" rgba="0.57 0.57 0.57 1"/>
+<geom name="stair_west22"  type="box" pos="-4.90 0 2.20" size="0.1 0.8 0.1" rgba="0.57 0.57 0.57 1"/>
+
+<geom name="stair_north23" type="box" pos="0 5.10 2.30" size="0.8 0.1 0.1" rgba="0.56 0.56 0.56 1"/>
+<geom name="stair_south23" type="box" pos="0 -5.10 2.30" size="0.8 0.1 0.1" rgba="0.56 0.56 0.56 1"/>
+<geom name="stair_east23"  type="box" pos="5.10 0 2.30" size="0.1 0.8 0.1" rgba="0.56 0.56 0.56 1"/>
+<geom name="stair_west23"  type="box" pos="-5.10 0 2.30" size="0.1 0.8 0.1" rgba="0.56 0.56 0.56 1"/>
+
+<geom name="stair_north24" type="box" pos="0 5.30 2.40" size="0.8 0.1 0.1" rgba="0.56 0.56 0.56 1"/>
+<geom name="stair_south24" type="box" pos="0 -5.30 2.40" size="0.8 0.1 0.1" rgba="0.56 0.56 0.56 1"/>
+<geom name="stair_east24"  type="box" pos="5.30 0 2.40" size="0.1 0.8 0.1" rgba="0.56 0.56 0.56 1"/>
+<geom name="stair_west24"  type="box" pos="-5.30 0 2.40" size="0.1 0.8 0.1" rgba="0.56 0.56 0.56 1"/>
+
+<geom name="stair_north25" type="box" pos="0 5.50 2.50" size="0.8 0.1 0.1" rgba="0.55 0.55 0.55 1"/>
+<geom name="stair_south25" type="box" pos="0 -5.50 2.50" size="0.8 0.1 0.1" rgba="0.55 0.55 0.55 1"/>
+<geom name="stair_east25"  type="box" pos="5.50 0 2.50" size="0.1 0.8 0.1" rgba="0.55 0.55 0.55 1"/>
+<geom name="stair_west25"  type="box" pos="-5.50 0 2.50" size="0.1 0.8 0.1" rgba="0.55 0.55 0.55 1"/>
+
+<geom name="stair_north26" type="box" pos="0 5.70 2.60" size="0.8 0.1 0.1" rgba="0.54 0.54 0.54 1"/>
+<geom name="stair_south26" type="box" pos="0 -5.70 2.60" size="0.8 0.1 0.1" rgba="0.54 0.54 0.54 1"/>
+<geom name="stair_east26"  type="box" pos="5.70 0 2.60" size="0.1 0.8 0.1" rgba="0.54 0.54 0.54 1"/>
+<geom name="stair_west26"  type="box" pos="-5.70 0 2.60" size="0.1 0.8 0.1" rgba="0.54 0.54 0.54 1"/>
+
+<geom name="stair_north27" type="box" pos="0 5.90 2.70" size="0.8 0.1 0.1" rgba="0.54 0.54 0.54 1"/>
+<geom name="stair_south27" type="box" pos="0 -5.90 2.70" size="0.8 0.1 0.1" rgba="0.54 0.54 0.54 1"/>
+<geom name="stair_east27"  type="box" pos="5.90 0 2.70" size="0.1 0.8 0.1" rgba="0.54 0.54 0.54 1"/>
+<geom name="stair_west27"  type="box" pos="-5.90 0 2.70" size="0.1 0.8 0.1" rgba="0.54 0.54 0.54 1"/>
+
+<geom name="stair_north28" type="box" pos="0 6.10 2.80" size="0.8 0.1 0.1" rgba="0.53 0.53 0.53 1"/>
+<geom name="stair_south28" type="box" pos="0 -6.10 2.80" size="0.8 0.1 0.1" rgba="0.53 0.53 0.53 1"/>
+<geom name="stair_east28"  type="box" pos="6.10 0 2.80" size="0.1 0.8 0.1" rgba="0.53 0.53 0.53 1"/>
+<geom name="stair_west28"  type="box" pos="-6.10 0 2.80" size="0.1 0.8 0.1" rgba="0.53 0.53 0.53 1"/>
+
+<geom name="stair_north29" type="box" pos="0 6.30 2.90" size="0.8 0.1 0.1" rgba="0.53 0.53 0.53 1"/>
+<geom name="stair_south29" type="box" pos="0 -6.30 2.90" size="0.8 0.1 0.1" rgba="0.53 0.53 0.53 1"/>
+<geom name="stair_east29"  type="box" pos="6.30 0 2.90" size="0.1 0.8 0.1" rgba="0.53 0.53 0.53 1"/>
+<geom name="stair_west29"  type="box" pos="-6.30 0 2.90" size="0.1 0.8 0.1" rgba="0.53 0.53 0.53 1"/>
+
+<geom name="stair_north30" type="box" pos="0 6.50 3.00" size="0.8 0.1 0.1" rgba="0.52 0.52 0.52 1"/>
+<geom name="stair_south30" type="box" pos="0 -6.50 3.00" size="0.8 0.1 0.1" rgba="0.52 0.52 0.52 1"/>
+<geom name="stair_east30"  type="box" pos="6.50 0 3.00" size="0.1 0.8 0.1" rgba="0.52 0.52 0.52 1"/>
+<geom name="stair_west30"  type="box" pos="-6.50 0 3.00" size="0.1 0.8 0.1" rgba="0.52 0.52 0.52 1"/>
+
+<geom name="stair_north31" type="box" pos="0 6.70 3.10" size="0.8 0.1 0.1" rgba="0.51 0.51 0.51 1"/>
+<geom name="stair_south31" type="box" pos="0 -6.70 3.10" size="0.8 0.1 0.1" rgba="0.51 0.51 0.51 1"/>
+<geom name="stair_east31"  type="box" pos="6.70 0 3.10" size="0.1 0.8 0.1" rgba="0.51 0.51 0.51 1"/>
+<geom name="stair_west31"  type="box" pos="-6.70 0 3.10" size="0.1 0.8 0.1" rgba="0.51 0.51 0.51 1"/>
+
+<geom name="stair_north32" type="box" pos="0 6.90 3.20" size="0.8 0.1 0.1" rgba="0.51 0.51 0.51 1"/>
+<geom name="stair_south32" type="box" pos="0 -6.90 3.20" size="0.8 0.1 0.1" rgba="0.51 0.51 0.51 1"/>
+<geom name="stair_east32"  type="box" pos="6.90 0 3.20" size="0.1 0.8 0.1" rgba="0.51 0.51 0.51 1"/>
+<geom name="stair_west32"  type="box" pos="-6.90 0 3.20" size="0.1 0.8 0.1" rgba="0.51 0.51 0.51 1"/>
+
+<geom name="stair_north33" type="box" pos="0 7.10 3.30" size="0.8 0.1 0.1" rgba="0.50 0.50 0.50 1"/>
+<geom name="stair_south33" type="box" pos="0 -7.10 3.30" size="0.8 0.1 0.1" rgba="0.50 0.50 0.50 1"/>
+<geom name="stair_east33"  type="box" pos="7.10 0 3.30" size="0.1 0.8 0.1" rgba="0.50 0.50 0.50 1"/>
+<geom name="stair_west33"  type="box" pos="-7.10 0 3.30" size="0.1 0.8 0.1" rgba="0.50 0.50 0.50 1"/>
+
+<geom name="stair_north34" type="box" pos="0 7.30 3.40" size="0.8 0.1 0.1" rgba="0.50 0.50 0.50 1"/>
+<geom name="stair_south34" type="box" pos="0 -7.30 3.40" size="0.8 0.1 0.1" rgba="0.50 0.50 0.50 1"/>
+<geom name="stair_east34"  type="box" pos="7.30 0 3.40" size="0.1 0.8 0.1" rgba="0.50 0.50 0.50 1"/>
+<geom name="stair_west34"  type="box" pos="-7.30 0 3.40" size="0.1 0.8 0.1" rgba="0.50 0.50 0.50 1"/>
+
+<geom name="stair_north35" type="box" pos="0 7.50 3.50" size="0.8 0.1 0.1" rgba="0.49 0.49 0.49 1"/>
+<geom name="stair_south35" type="box" pos="0 -7.50 3.50" size="0.8 0.1 0.1" rgba="0.49 0.49 0.49 1"/>
+<geom name="stair_east35"  type="box" pos="7.50 0 3.50" size="0.1 0.8 0.1" rgba="0.49 0.49 0.49 1"/>
+<geom name="stair_west35"  type="box" pos="-7.50 0 3.50" size="0.1 0.8 0.1" rgba="0.49 0.49 0.49 1"/>
+
+<geom name="stair_north36" type="box" pos="0 7.70 3.60" size="0.8 0.1 0.1" rgba="0.48 0.48 0.48 1"/>
+<geom name="stair_south36" type="box" pos="0 -7.70 3.60" size="0.8 0.1 0.1" rgba="0.48 0.48 0.48 1"/>
+<geom name="stair_east36"  type="box" pos="7.70 0 3.60" size="0.1 0.8 0.1" rgba="0.48 0.48 0.48 1"/>
+<geom name="stair_west36"  type="box" pos="-7.70 0 3.60" size="0.1 0.8 0.1" rgba="0.48 0.48 0.48 1"/>
+
+<geom name="stair_north37" type="box" pos="0 7.90 3.70" size="0.8 0.1 0.1" rgba="0.48 0.48 0.48 1"/>
+<geom name="stair_south37" type="box" pos="0 -7.90 3.70" size="0.8 0.1 0.1" rgba="0.48 0.48 0.48 1"/>
+<geom name="stair_east37"  type="box" pos="7.90 0 3.70" size="0.1 0.8 0.1" rgba="0.48 0.48 0.48 1"/>
+<geom name="stair_west37"  type="box" pos="-7.90 0 3.70" size="0.1 0.8 0.1" rgba="0.48 0.48 0.48 1"/>
+
+<geom name="stair_north38" type="box" pos="0 8.10 3.80" size="0.8 0.1 0.1" rgba="0.47 0.47 0.47 1"/>
+<geom name="stair_south38" type="box" pos="0 -8.10 3.80" size="0.8 0.1 0.1" rgba="0.47 0.47 0.47 1"/>
+<geom name="stair_east38"  type="box" pos="8.10 0 3.80" size="0.1 0.8 0.1" rgba="0.47 0.47 0.47 1"/>
+<geom name="stair_west38"  type="box" pos="-8.10 0 3.80" size="0.1 0.8 0.1" rgba="0.47 0.47 0.47 1"/>
+
+<geom name="stair_north39" type="box" pos="0 8.30 3.90" size="0.8 0.1 0.1" rgba="0.47 0.47 0.47 1"/>
+<geom name="stair_south39" type="box" pos="0 -8.30 3.90" size="0.8 0.1 0.1" rgba="0.47 0.47 0.47 1"/>
+<geom name="stair_east39"  type="box" pos="8.30 0 3.90" size="0.1 0.8 0.1" rgba="0.47 0.47 0.47 1"/>
+<geom name="stair_west39"  type="box" pos="-8.30 0 3.90" size="0.1 0.8 0.1" rgba="0.47 0.47 0.47 1"/>
+
+<geom name="stair_north40" type="box" pos="0 8.50 4.00" size="0.8 0.1 0.1" rgba="0.46 0.46 0.46 1"/>
+<geom name="stair_south40" type="box" pos="0 -8.50 4.00" size="0.8 0.1 0.1" rgba="0.46 0.46 0.46 1"/>
+<geom name="stair_east40"  type="box" pos="8.50 0 4.00" size="0.1 0.8 0.1" rgba="0.46 0.46 0.46 1"/>
+<geom name="stair_west40"  type="box" pos="-8.50 0 4.00" size="0.1 0.8 0.1" rgba="0.46 0.46 0.46 1"/>
+
+<geom name="stair_north41" type="box" pos="0 8.70 4.10" size="0.8 0.1 0.1" rgba="0.45 0.45 0.45 1"/>
+<geom name="stair_south41" type="box" pos="0 -8.70 4.10" size="0.8 0.1 0.1" rgba="0.45 0.45 0.45 1"/>
+<geom name="stair_east41"  type="box" pos="8.70 0 4.10" size="0.1 0.8 0.1" rgba="0.45 0.45 0.45 1"/>
+<geom name="stair_west41"  type="box" pos="-8.70 0 4.10" size="0.1 0.8 0.1" rgba="0.45 0.45 0.45 1"/>
+
+<geom name="stair_north42" type="box" pos="0 8.90 4.20" size="0.8 0.1 0.1" rgba="0.45 0.45 0.45 1"/>
+<geom name="stair_south42" type="box" pos="0 -8.90 4.20" size="0.8 0.1 0.1" rgba="0.45 0.45 0.45 1"/>
+<geom name="stair_east42"  type="box" pos="8.90 0 4.20" size="0.1 0.8 0.1" rgba="0.45 0.45 0.45 1"/>
+<geom name="stair_west42"  type="box" pos="-8.90 0 4.20" size="0.1 0.8 0.1" rgba="0.45 0.45 0.45 1"/>
+
+<geom name="stair_north43" type="box" pos="0 9.10 4.30" size="0.8 0.1 0.1" rgba="0.44 0.44 0.44 1"/>
+<geom name="stair_south43" type="box" pos="0 -9.10 4.30" size="0.8 0.1 0.1" rgba="0.44 0.44 0.44 1"/>
+<geom name="stair_east43"  type="box" pos="9.10 0 4.30" size="0.1 0.8 0.1" rgba="0.44 0.44 0.44 1"/>
+<geom name="stair_west43"  type="box" pos="-9.10 0 4.30" size="0.1 0.8 0.1" rgba="0.44 0.44 0.44 1"/>
+
+<geom name="stair_north44" type="box" pos="0 9.30 4.40" size="0.8 0.1 0.1" rgba="0.44 0.44 0.44 1"/>
+<geom name="stair_south44" type="box" pos="0 -9.30 4.40" size="0.8 0.1 0.1" rgba="0.44 0.44 0.44 1"/>
+<geom name="stair_east44"  type="box" pos="9.30 0 4.40" size="0.1 0.8 0.1" rgba="0.44 0.44 0.44 1"/>
+<geom name="stair_west44"  type="box" pos="-9.30 0 4.40" size="0.1 0.8 0.1" rgba="0.44 0.44 0.44 1"/>
+
+<geom name="stair_north45" type="box" pos="0 9.50 4.50" size="0.8 0.1 0.1" rgba="0.43 0.43 0.43 1"/>
+<geom name="stair_south45" type="box" pos="0 -9.50 4.50" size="0.8 0.1 0.1" rgba="0.43 0.43 0.43 1"/>
+<geom name="stair_east45"  type="box" pos="9.50 0 4.50" size="0.1 0.8 0.1" rgba="0.43 0.43 0.43 1"/>
+<geom name="stair_west45"  type="box" pos="-9.50 0 4.50" size="0.1 0.8 0.1" rgba="0.43 0.43 0.43 1"/>
+
+<geom name="stair_north46" type="box" pos="0 9.70 4.60" size="0.8 0.1 0.1" rgba="0.42 0.42 0.42 1"/>
+<geom name="stair_south46" type="box" pos="0 -9.70 4.60" size="0.8 0.1 0.1" rgba="0.42 0.42 0.42 1"/>
+<geom name="stair_east46"  type="box" pos="9.70 0 4.60" size="0.1 0.8 0.1" rgba="0.42 0.42 0.42 1"/>
+<geom name="stair_west46"  type="box" pos="-9.70 0 4.60" size="0.1 0.8 0.1" rgba="0.42 0.42 0.42 1"/>
+
+<geom name="stair_north47" type="box" pos="0 9.90 4.70" size="0.8 0.1 0.1" rgba="0.42 0.42 0.42 1"/>
+<geom name="stair_south47" type="box" pos="0 -9.90 4.70" size="0.8 0.1 0.1" rgba="0.42 0.42 0.42 1"/>
+<geom name="stair_east47"  type="box" pos="9.90 0 4.70" size="0.1 0.8 0.1" rgba="0.42 0.42 0.42 1"/>
+<geom name="stair_west47"  type="box" pos="-9.90 0 4.70" size="0.1 0.8 0.1" rgba="0.42 0.42 0.42 1"/>
+
+<geom name="stair_north48" type="box" pos="0 10.10 4.80" size="0.8 0.1 0.1" rgba="0.41 0.41 0.41 1"/>
+<geom name="stair_south48" type="box" pos="0 -10.10 4.80" size="0.8 0.1 0.1" rgba="0.41 0.41 0.41 1"/>
+<geom name="stair_east48"  type="box" pos="10.10 0 4.80" size="0.1 0.8 0.1" rgba="0.41 0.41 0.41 1"/>
+<geom name="stair_west48"  type="box" pos="-10.10 0 4.80" size="0.1 0.8 0.1" rgba="0.41 0.41 0.41 1"/>
+
+<geom name="stair_north49" type="box" pos="0 10.30 4.90" size="0.8 0.1 0.1" rgba="0.41 0.41 0.41 1"/>
+<geom name="stair_south49" type="box" pos="0 -10.30 4.90" size="0.8 0.1 0.1" rgba="0.41 0.41 0.41 1"/>
+<geom name="stair_east49"  type="box" pos="10.30 0 4.90" size="0.1 0.8 0.1" rgba="0.41 0.41 0.41 1"/>
+<geom name="stair_west49"  type="box" pos="-10.30 0 4.90" size="0.1 0.8 0.1" rgba="0.41 0.41 0.41 1"/>
+
+<geom name="stair_north50" type="box" pos="0 10.50 5.00" size="0.8 0.1 0.1" rgba="0.40 0.40 0.40 1"/>
+<geom name="stair_south50" type="box" pos="0 -10.50 5.00" size="0.8 0.1 0.1" rgba="0.40 0.40 0.40 1"/>
+<geom name="stair_east50"  type="box" pos="10.50 0 5.00" size="0.1 0.8 0.1" rgba="0.40 0.40 0.40 1"/>
+<geom name="stair_west50"  type="box" pos="-10.50 0 5.00" size="0.1 0.8 0.1" rgba="0.40 0.40 0.40 1"/>
+
+<geom name="stair_north51" type="box" pos="0 10.70 5.10" size="0.8 0.1 0.1" rgba="0.39 0.39 0.39 1"/>
+<geom name="stair_south51" type="box" pos="0 -10.70 5.10" size="0.8 0.1 0.1" rgba="0.39 0.39 0.39 1"/>
+<geom name="stair_east51"  type="box" pos="10.70 0 5.10" size="0.1 0.8 0.1" rgba="0.39 0.39 0.39 1"/>
+<geom name="stair_west51"  type="box" pos="-10.70 0 5.10" size="0.1 0.8 0.1" rgba="0.39 0.39 0.39 1"/>
+
+<geom name="stair_north52" type="box" pos="0 10.90 5.20" size="0.8 0.1 0.1" rgba="0.39 0.39 0.39 1"/>
+<geom name="stair_south52" type="box" pos="0 -10.90 5.20" size="0.8 0.1 0.1" rgba="0.39 0.39 0.39 1"/>
+<geom name="stair_east52"  type="box" pos="10.90 0 5.20" size="0.1 0.8 0.1" rgba="0.39 0.39 0.39 1"/>
+<geom name="stair_west52"  type="box" pos="-10.90 0 5.20" size="0.1 0.8 0.1" rgba="0.39 0.39 0.39 1"/>
+
+<geom name="stair_north53" type="box" pos="0 11.10 5.30" size="0.8 0.1 0.1" rgba="0.38 0.38 0.38 1"/>
+<geom name="stair_south53" type="box" pos="0 -11.10 5.30" size="0.8 0.1 0.1" rgba="0.38 0.38 0.38 1"/>
+<geom name="stair_east53"  type="box" pos="11.10 0 5.30" size="0.1 0.8 0.1" rgba="0.38 0.38 0.38 1"/>
+<geom name="stair_west53"  type="box" pos="-11.10 0 5.30" size="0.1 0.8 0.1" rgba="0.38 0.38 0.38 1"/>
+
+<geom name="stair_north54" type="box" pos="0 11.30 5.40" size="0.8 0.1 0.1" rgba="0.38 0.38 0.38 1"/>
+<geom name="stair_south54" type="box" pos="0 -11.30 5.40" size="0.8 0.1 0.1" rgba="0.38 0.38 0.38 1"/>
+<geom name="stair_east54"  type="box" pos="11.30 0 5.40" size="0.1 0.8 0.1" rgba="0.38 0.38 0.38 1"/>
+<geom name="stair_west54"  type="box" pos="-11.30 0 5.40" size="0.1 0.8 0.1" rgba="0.38 0.38 0.38 1"/>
+
+<geom name="stair_north55" type="box" pos="0 11.50 5.50" size="0.8 0.1 0.1" rgba="0.37 0.37 0.37 1"/>
+<geom name="stair_south55" type="box" pos="0 -11.50 5.50" size="0.8 0.1 0.1" rgba="0.37 0.37 0.37 1"/>
+<geom name="stair_east55"  type="box" pos="11.50 0 5.50" size="0.1 0.8 0.1" rgba="0.37 0.37 0.37 1"/>
+<geom name="stair_west55"  type="box" pos="-11.50 0 5.50" size="0.1 0.8 0.1" rgba="0.37 0.37 0.37 1"/>
+
+<geom name="stair_north56" type="box" pos="0 11.70 5.60" size="0.8 0.1 0.1" rgba="0.36 0.36 0.36 1"/>
+<geom name="stair_south56" type="box" pos="0 -11.70 5.60" size="0.8 0.1 0.1" rgba="0.36 0.36 0.36 1"/>
+<geom name="stair_east56"  type="box" pos="11.70 0 5.60" size="0.1 0.8 0.1" rgba="0.36 0.36 0.36 1"/>
+<geom name="stair_west56"  type="box" pos="-11.70 0 5.60" size="0.1 0.8 0.1" rgba="0.36 0.36 0.36 1"/>
+
+<geom name="stair_north57" type="box" pos="0 11.90 5.70" size="0.8 0.1 0.1" rgba="0.36 0.36 0.36 1"/>
+<geom name="stair_south57" type="box" pos="0 -11.90 5.70" size="0.8 0.1 0.1" rgba="0.36 0.36 0.36 1"/>
+<geom name="stair_east57"  type="box" pos="11.90 0 5.70" size="0.1 0.8 0.1" rgba="0.36 0.36 0.36 1"/>
+<geom name="stair_west57"  type="box" pos="-11.90 0 5.70" size="0.1 0.8 0.1" rgba="0.36 0.36 0.36 1"/>
+
+<geom name="stair_north58" type="box" pos="0 12.10 5.80" size="0.8 0.1 0.1" rgba="0.35 0.35 0.35 1"/>
+<geom name="stair_south58" type="box" pos="0 -12.10 5.80" size="0.8 0.1 0.1" rgba="0.35 0.35 0.35 1"/>
+<geom name="stair_east58"  type="box" pos="12.10 0 5.80" size="0.1 0.8 0.1" rgba="0.35 0.35 0.35 1"/>
+<geom name="stair_west58"  type="box" pos="-12.10 0 5.80" size="0.1 0.8 0.1" rgba="0.35 0.35 0.35 1"/>
+
+<geom name="stair_north59" type="box" pos="0 12.30 5.90" size="0.8 0.1 0.1" rgba="0.35 0.35 0.35 1"/>
+<geom name="stair_south59" type="box" pos="0 -12.30 5.90" size="0.8 0.1 0.1" rgba="0.35 0.35 0.35 1"/>
+<geom name="stair_east59"  type="box" pos="12.30 0 5.90" size="0.1 0.8 0.1" rgba="0.35 0.35 0.35 1"/>
+<geom name="stair_west59"  type="box" pos="-12.30 0 5.90" size="0.1 0.8 0.1" rgba="0.35 0.35 0.35 1"/>
+
+<geom name="stair_north60" type="box" pos="0 12.50 6.00" size="0.8 0.1 0.1" rgba="0.34 0.34 0.34 1"/>
+<geom name="stair_south60" type="box" pos="0 -12.50 6.00" size="0.8 0.1 0.1" rgba="0.34 0.34 0.34 1"/>
+<geom name="stair_east60"  type="box" pos="12.50 0 6.00" size="0.1 0.8 0.1" rgba="0.34 0.34 0.34 1"/>
+<geom name="stair_west60"  type="box" pos="-12.50 0 6.00" size="0.1 0.8 0.1" rgba="0.34 0.34 0.34 1"/>
+
+<geom name="stair_north61" type="box" pos="0 12.70 6.10" size="0.8 0.1 0.1" rgba="0.33 0.33 0.33 1"/>
+<geom name="stair_south61" type="box" pos="0 -12.70 6.10" size="0.8 0.1 0.1" rgba="0.33 0.33 0.33 1"/>
+<geom name="stair_east61"  type="box" pos="12.70 0 6.10" size="0.1 0.8 0.1" rgba="0.33 0.33 0.33 1"/>
+<geom name="stair_west61"  type="box" pos="-12.70 0 6.10" size="0.1 0.8 0.1" rgba="0.33 0.33 0.33 1"/>
+
+<geom name="stair_north62" type="box" pos="0 12.90 6.20" size="0.8 0.1 0.1" rgba="0.33 0.33 0.33 1"/>
+<geom name="stair_south62" type="box" pos="0 -12.90 6.20" size="0.8 0.1 0.1" rgba="0.33 0.33 0.33 1"/>
+<geom name="stair_east62"  type="box" pos="12.90 0 6.20" size="0.1 0.8 0.1" rgba="0.33 0.33 0.33 1"/>
+<geom name="stair_west62"  type="box" pos="-12.90 0 6.20" size="0.1 0.8 0.1" rgba="0.33 0.33 0.33 1"/>
+
+<geom name="stair_north63" type="box" pos="0 13.10 6.30" size="0.8 0.1 0.1" rgba="0.32 0.32 0.32 1"/>
+<geom name="stair_south63" type="box" pos="0 -13.10 6.30" size="0.8 0.1 0.1" rgba="0.32 0.32 0.32 1"/>
+<geom name="stair_east63"  type="box" pos="13.10 0 6.30" size="0.1 0.8 0.1" rgba="0.32 0.32 0.32 1"/>
+<geom name="stair_west63"  type="box" pos="-13.10 0 6.30" size="0.1 0.8 0.1" rgba="0.32 0.32 0.32 1"/>
+
+<geom name="stair_north64" type="box" pos="0 13.30 6.40" size="0.8 0.1 0.1" rgba="0.32 0.32 0.32 1"/>
+<geom name="stair_south64" type="box" pos="0 -13.30 6.40" size="0.8 0.1 0.1" rgba="0.32 0.32 0.32 1"/>
+<geom name="stair_east64"  type="box" pos="13.30 0 6.40" size="0.1 0.8 0.1" rgba="0.32 0.32 0.32 1"/>
+<geom name="stair_west64"  type="box" pos="-13.30 0 6.40" size="0.1 0.8 0.1" rgba="0.32 0.32 0.32 1"/>
+
+<geom name="stair_north65" type="box" pos="0 13.50 6.50" size="0.8 0.1 0.1" rgba="0.31 0.31 0.31 1"/>
+<geom name="stair_south65" type="box" pos="0 -13.50 6.50" size="0.8 0.1 0.1" rgba="0.31 0.31 0.31 1"/>
+<geom name="stair_east65"  type="box" pos="13.50 0 6.50" size="0.1 0.8 0.1" rgba="0.31 0.31 0.31 1"/>
+<geom name="stair_west65"  type="box" pos="-13.50 0 6.50" size="0.1 0.8 0.1" rgba="0.31 0.31 0.31 1"/>
+
+<geom name="stair_north66" type="box" pos="0 13.70 6.60" size="0.8 0.1 0.1" rgba="0.30 0.30 0.30 1"/>
+<geom name="stair_south66" type="box" pos="0 -13.70 6.60" size="0.8 0.1 0.1" rgba="0.30 0.30 0.30 1"/>
+<geom name="stair_east66"  type="box" pos="13.70 0 6.60" size="0.1 0.8 0.1" rgba="0.30 0.30 0.30 1"/>
+<geom name="stair_west66"  type="box" pos="-13.70 0 6.60" size="0.1 0.8 0.1" rgba="0.30 0.30 0.30 1"/>
+
+<geom name="stair_north67" type="box" pos="0 13.90 6.70" size="0.8 0.1 0.1" rgba="0.30 0.30 0.30 1"/>
+<geom name="stair_south67" type="box" pos="0 -13.90 6.70" size="0.8 0.1 0.1" rgba="0.30 0.30 0.30 1"/>
+<geom name="stair_east67"  type="box" pos="13.90 0 6.70" size="0.1 0.8 0.1" rgba="0.30 0.30 0.30 1"/>
+<geom name="stair_west67"  type="box" pos="-13.90 0 6.70" size="0.1 0.8 0.1" rgba="0.30 0.30 0.30 1"/>
+
+<geom name="stair_north68" type="box" pos="0 14.10 6.80" size="0.8 0.1 0.1" rgba="0.29 0.29 0.29 1"/>
+<geom name="stair_south68" type="box" pos="0 -14.10 6.80" size="0.8 0.1 0.1" rgba="0.29 0.29 0.29 1"/>
+<geom name="stair_east68"  type="box" pos="14.10 0 6.80" size="0.1 0.8 0.1" rgba="0.29 0.29 0.29 1"/>
+<geom name="stair_west68"  type="box" pos="-14.10 0 6.80" size="0.1 0.8 0.1" rgba="0.29 0.29 0.29 1"/>
+
+<geom name="stair_north69" type="box" pos="0 14.30 6.90" size="0.8 0.1 0.1" rgba="0.29 0.29 0.29 1"/>
+<geom name="stair_south69" type="box" pos="0 -14.30 6.90" size="0.8 0.1 0.1" rgba="0.29 0.29 0.29 1"/>
+<geom name="stair_east69"  type="box" pos="14.30 0 6.90" size="0.1 0.8 0.1" rgba="0.29 0.29 0.29 1"/>
+<geom name="stair_west69"  type="box" pos="-14.30 0 6.90" size="0.1 0.8 0.1" rgba="0.29 0.29 0.29 1"/>
+
+<geom name="stair_north70" type="box" pos="0 14.50 7.00" size="0.8 0.1 0.1" rgba="0.28 0.28 0.28 1"/>
+<geom name="stair_south70" type="box" pos="0 -14.50 7.00" size="0.8 0.1 0.1" rgba="0.28 0.28 0.28 1"/>
+<geom name="stair_east70"  type="box" pos="14.50 0 7.00" size="0.1 0.8 0.1" rgba="0.28 0.28 0.28 1"/>
+<geom name="stair_west70"  type="box" pos="-14.50 0 7.00" size="0.1 0.8 0.1" rgba="0.28 0.28 0.28 1"/>
+
+<geom name="stair_north71" type="box" pos="0 14.70 7.10" size="0.8 0.1 0.1" rgba="0.27 0.27 0.27 1"/>
+<geom name="stair_south71" type="box" pos="0 -14.70 7.10" size="0.8 0.1 0.1" rgba="0.27 0.27 0.27 1"/>
+<geom name="stair_east71"  type="box" pos="14.70 0 7.10" size="0.1 0.8 0.1" rgba="0.27 0.27 0.27 1"/>
+<geom name="stair_west71"  type="box" pos="-14.70 0 7.10" size="0.1 0.8 0.1" rgba="0.27 0.27 0.27 1"/>
+
+<geom name="stair_north72" type="box" pos="0 14.90 7.20" size="0.8 0.1 0.1" rgba="0.27 0.27 0.27 1"/>
+<geom name="stair_south72" type="box" pos="0 -14.90 7.20" size="0.8 0.1 0.1" rgba="0.27 0.27 0.27 1"/>
+<geom name="stair_east72"  type="box" pos="14.90 0 7.20" size="0.1 0.8 0.1" rgba="0.27 0.27 0.27 1"/>
+<geom name="stair_west72"  type="box" pos="-14.90 0 7.20" size="0.1 0.8 0.1" rgba="0.27 0.27 0.27 1"/>
+
+<geom name="stair_north73" type="box" pos="0 15.10 7.30" size="0.8 0.1 0.1" rgba="0.26 0.26 0.26 1"/>
+<geom name="stair_south73" type="box" pos="0 -15.10 7.30" size="0.8 0.1 0.1" rgba="0.26 0.26 0.26 1"/>
+<geom name="stair_east73"  type="box" pos="15.10 0 7.30" size="0.1 0.8 0.1" rgba="0.26 0.26 0.26 1"/>
+<geom name="stair_west73"  type="box" pos="-15.10 0 7.30" size="0.1 0.8 0.1" rgba="0.26 0.26 0.26 1"/>
+
+<geom name="stair_north74" type="box" pos="0 15.30 7.40" size="0.8 0.1 0.1" rgba="0.26 0.26 0.26 1"/>
+<geom name="stair_south74" type="box" pos="0 -15.30 7.40" size="0.8 0.1 0.1" rgba="0.26 0.26 0.26 1"/>
+<geom name="stair_east74"  type="box" pos="15.30 0 7.40" size="0.1 0.8 0.1" rgba="0.26 0.26 0.26 1"/>
+<geom name="stair_west74"  type="box" pos="-15.30 0 7.40" size="0.1 0.8 0.1" rgba="0.26 0.26 0.26 1"/>
+
+<geom name="stair_north75" type="box" pos="0 15.50 7.50" size="0.8 0.1 0.1" rgba="0.25 0.25 0.25 1"/>
+<geom name="stair_south75" type="box" pos="0 -15.50 7.50" size="0.8 0.1 0.1" rgba="0.25 0.25 0.25 1"/>
+<geom name="stair_east75"  type="box" pos="15.50 0 7.50" size="0.1 0.8 0.1" rgba="0.25 0.25 0.25 1"/>
+<geom name="stair_west75"  type="box" pos="-15.50 0 7.50" size="0.1 0.8 0.1" rgba="0.25 0.25 0.25 1"/>
+
+<geom name="stair_north76" type="box" pos="0 15.70 7.60" size="0.8 0.1 0.1" rgba="0.24 0.24 0.24 1"/>
+<geom name="stair_south76" type="box" pos="0 -15.70 7.60" size="0.8 0.1 0.1" rgba="0.24 0.24 0.24 1"/>
+<geom name="stair_east76"  type="box" pos="15.70 0 7.60" size="0.1 0.8 0.1" rgba="0.24 0.24 0.24 1"/>
+<geom name="stair_west76"  type="box" pos="-15.70 0 7.60" size="0.1 0.8 0.1" rgba="0.24 0.24 0.24 1"/>
+
+<geom name="stair_north77" type="box" pos="0 15.90 7.70" size="0.8 0.1 0.1" rgba="0.24 0.24 0.24 1"/>
+<geom name="stair_south77" type="box" pos="0 -15.90 7.70" size="0.8 0.1 0.1" rgba="0.24 0.24 0.24 1"/>
+<geom name="stair_east77"  type="box" pos="15.90 0 7.70" size="0.1 0.8 0.1" rgba="0.24 0.24 0.24 1"/>
+<geom name="stair_west77"  type="box" pos="-15.90 0 7.70" size="0.1 0.8 0.1" rgba="0.24 0.24 0.24 1"/>
+
+<geom name="stair_north78" type="box" pos="0 16.10 7.80" size="0.8 0.1 0.1" rgba="0.23 0.23 0.23 1"/>
+<geom name="stair_south78" type="box" pos="0 -16.10 7.80" size="0.8 0.1 0.1" rgba="0.23 0.23 0.23 1"/>
+<geom name="stair_east78"  type="box" pos="16.10 0 7.80" size="0.1 0.8 0.1" rgba="0.23 0.23 0.23 1"/>
+<geom name="stair_west78"  type="box" pos="-16.10 0 7.80" size="0.1 0.8 0.1" rgba="0.23 0.23 0.23 1"/>
+
+<geom name="stair_north79" type="box" pos="0 16.30 7.90" size="0.8 0.1 0.1" rgba="0.23 0.23 0.23 1"/>
+<geom name="stair_south79" type="box" pos="0 -16.30 7.90" size="0.8 0.1 0.1" rgba="0.23 0.23 0.23 1"/>
+<geom name="stair_east79"  type="box" pos="16.30 0 7.90" size="0.1 0.8 0.1" rgba="0.23 0.23 0.23 1"/>
+<geom name="stair_west79"  type="box" pos="-16.30 0 7.90" size="0.1 0.8 0.1" rgba="0.23 0.23 0.23 1"/>
+
+<geom name="stair_north80" type="box" pos="0 16.50 8.00" size="0.8 0.1 0.1" rgba="0.22 0.22 0.22 1"/>
+<geom name="stair_south80" type="box" pos="0 -16.50 8.00" size="0.8 0.1 0.1" rgba="0.22 0.22 0.22 1"/>
+<geom name="stair_east80"  type="box" pos="16.50 0 8.00" size="0.1 0.8 0.1" rgba="0.22 0.22 0.22 1"/>
+<geom name="stair_west80"  type="box" pos="-16.50 0 8.00" size="0.1 0.8 0.1" rgba="0.22 0.22 0.22 1"/>
+
+<geom name="stair_north81" type="box" pos="0 16.70 8.10" size="0.8 0.1 0.1" rgba="0.21 0.21 0.21 1"/>
+<geom name="stair_south81" type="box" pos="0 -16.70 8.10" size="0.8 0.1 0.1" rgba="0.21 0.21 0.21 1"/>
+<geom name="stair_east81"  type="box" pos="16.70 0 8.10" size="0.1 0.8 0.1" rgba="0.21 0.21 0.21 1"/>
+<geom name="stair_west81"  type="box" pos="-16.70 0 8.10" size="0.1 0.8 0.1" rgba="0.21 0.21 0.21 1"/>
+
+<geom name="stair_north82" type="box" pos="0 16.90 8.20" size="0.8 0.1 0.1" rgba="0.21 0.21 0.21 1"/>
+<geom name="stair_south82" type="box" pos="0 -16.90 8.20" size="0.8 0.1 0.1" rgba="0.21 0.21 0.21 1"/>
+<geom name="stair_east82"  type="box" pos="16.90 0 8.20" size="0.1 0.8 0.1" rgba="0.21 0.21 0.21 1"/>
+<geom name="stair_west82"  type="box" pos="-16.90 0 8.20" size="0.1 0.8 0.1" rgba="0.21 0.21 0.21 1"/>
+
+<geom name="stair_north83" type="box" pos="0 17.10 8.30" size="0.8 0.1 0.1" rgba="0.20 0.20 0.20 1"/>
+<geom name="stair_south83" type="box" pos="0 -17.10 8.30" size="0.8 0.1 0.1" rgba="0.20 0.20 0.20 1"/>
+<geom name="stair_east83"  type="box" pos="17.10 0 8.30" size="0.1 0.8 0.1" rgba="0.20 0.20 0.20 1"/>
+<geom name="stair_west83"  type="box" pos="-17.10 0 8.30" size="0.1 0.8 0.1" rgba="0.20 0.20 0.20 1"/>
+
+<geom name="stair_north84" type="box" pos="0 17.30 8.40" size="0.8 0.1 0.1" rgba="0.20 0.20 0.20 1"/>
+<geom name="stair_south84" type="box" pos="0 -17.30 8.40" size="0.8 0.1 0.1" rgba="0.20 0.20 0.20 1"/>
+<geom name="stair_east84"  type="box" pos="17.30 0 8.40" size="0.1 0.8 0.1" rgba="0.20 0.20 0.20 1"/>
+<geom name="stair_west84"  type="box" pos="-17.30 0 8.40" size="0.1 0.8 0.1" rgba="0.20 0.20 0.20 1"/>
+
+<geom name="stair_north85" type="box" pos="0 17.50 8.50" size="0.8 0.1 0.1" rgba="0.19 0.19 0.19 1"/>
+<geom name="stair_south85" type="box" pos="0 -17.50 8.50" size="0.8 0.1 0.1" rgba="0.19 0.19 0.19 1"/>
+<geom name="stair_east85"  type="box" pos="17.50 0 8.50" size="0.1 0.8 0.1" rgba="0.19 0.19 0.19 1"/>
+<geom name="stair_west85"  type="box" pos="-17.50 0 8.50" size="0.1 0.8 0.1" rgba="0.19 0.19 0.19 1"/>
+
+<geom name="stair_north86" type="box" pos="0 17.70 8.60" size="0.8 0.1 0.1" rgba="0.18 0.18 0.18 1"/>
+<geom name="stair_south86" type="box" pos="0 -17.70 8.60" size="0.8 0.1 0.1" rgba="0.18 0.18 0.18 1"/>
+<geom name="stair_east86"  type="box" pos="17.70 0 8.60" size="0.1 0.8 0.1" rgba="0.18 0.18 0.18 1"/>
+<geom name="stair_west86"  type="box" pos="-17.70 0 8.60" size="0.1 0.8 0.1" rgba="0.18 0.18 0.18 1"/>
+
+<geom name="stair_north87" type="box" pos="0 17.90 8.70" size="0.8 0.1 0.1" rgba="0.18 0.18 0.18 1"/>
+<geom name="stair_south87" type="box" pos="0 -17.90 8.70" size="0.8 0.1 0.1" rgba="0.18 0.18 0.18 1"/>
+<geom name="stair_east87"  type="box" pos="17.90 0 8.70" size="0.1 0.8 0.1" rgba="0.18 0.18 0.18 1"/>
+<geom name="stair_west87"  type="box" pos="-17.90 0 8.70" size="0.1 0.8 0.1" rgba="0.18 0.18 0.18 1"/>
+
+<geom name="stair_north88" type="box" pos="0 18.10 8.80" size="0.8 0.1 0.1" rgba="0.17 0.17 0.17 1"/>
+<geom name="stair_south88" type="box" pos="0 -18.10 8.80" size="0.8 0.1 0.1" rgba="0.17 0.17 0.17 1"/>
+<geom name="stair_east88"  type="box" pos="18.10 0 8.80" size="0.1 0.8 0.1" rgba="0.17 0.17 0.17 1"/>
+<geom name="stair_west88"  type="box" pos="-18.10 0 8.80" size="0.1 0.8 0.1" rgba="0.17 0.17 0.17 1"/>
+
+<geom name="stair_north89" type="box" pos="0 18.30 8.90" size="0.8 0.1 0.1" rgba="0.17 0.17 0.17 1"/>
+<geom name="stair_south89" type="box" pos="0 -18.30 8.90" size="0.8 0.1 0.1" rgba="0.17 0.17 0.17 1"/>
+<geom name="stair_east89"  type="box" pos="18.30 0 8.90" size="0.1 0.8 0.1" rgba="0.17 0.17 0.17 1"/>
+<geom name="stair_west89"  type="box" pos="-18.30 0 8.90" size="0.1 0.8 0.1" rgba="0.17 0.17 0.17 1"/>
+
+<geom name="stair_north90" type="box" pos="0 18.50 9.00" size="0.8 0.1 0.1" rgba="0.16 0.16 0.16 1"/>
+<geom name="stair_south90" type="box" pos="0 -18.50 9.00" size="0.8 0.1 0.1" rgba="0.16 0.16 0.16 1"/>
+<geom name="stair_east90"  type="box" pos="18.50 0 9.00" size="0.1 0.8 0.1" rgba="0.16 0.16 0.16 1"/>
+<geom name="stair_west90"  type="box" pos="-18.50 0 9.00" size="0.1 0.8 0.1" rgba="0.16 0.16 0.16 1"/>
+
+<geom name="stair_north91" type="box" pos="0 18.70 9.10" size="0.8 0.1 0.1" rgba="0.15 0.15 0.15 1"/>
+<geom name="stair_south91" type="box" pos="0 -18.70 9.10" size="0.8 0.1 0.1" rgba="0.15 0.15 0.15 1"/>
+<geom name="stair_east91"  type="box" pos="18.70 0 9.10" size="0.1 0.8 0.1" rgba="0.15 0.15 0.15 1"/>
+<geom name="stair_west91"  type="box" pos="-18.70 0 9.10" size="0.1 0.8 0.1" rgba="0.15 0.15 0.15 1"/>
+
+<geom name="stair_north92" type="box" pos="0 18.90 9.20" size="0.8 0.1 0.1" rgba="0.15 0.15 0.15 1"/>
+<geom name="stair_south92" type="box" pos="0 -18.90 9.20" size="0.8 0.1 0.1" rgba="0.15 0.15 0.15 1"/>
+<geom name="stair_east92"  type="box" pos="18.90 0 9.20" size="0.1 0.8 0.1" rgba="0.15 0.15 0.15 1"/>
+<geom name="stair_west92"  type="box" pos="-18.90 0 9.20" size="0.1 0.8 0.1" rgba="0.15 0.15 0.15 1"/>
+
+<geom name="stair_north93" type="box" pos="0 19.10 9.30" size="0.8 0.1 0.1" rgba="0.14 0.14 0.14 1"/>
+<geom name="stair_south93" type="box" pos="0 -19.10 9.30" size="0.8 0.1 0.1" rgba="0.14 0.14 0.14 1"/>
+<geom name="stair_east93"  type="box" pos="19.10 0 9.30" size="0.1 0.8 0.1" rgba="0.14 0.14 0.14 1"/>
+<geom name="stair_west93"  type="box" pos="-19.10 0 9.30" size="0.1 0.8 0.1" rgba="0.14 0.14 0.14 1"/>
+
+<geom name="stair_north94" type="box" pos="0 19.30 9.40" size="0.8 0.1 0.1" rgba="0.14 0.14 0.14 1"/>
+<geom name="stair_south94" type="box" pos="0 -19.30 9.40" size="0.8 0.1 0.1" rgba="0.14 0.14 0.14 1"/>
+<geom name="stair_east94"  type="box" pos="19.30 0 9.40" size="0.1 0.8 0.1" rgba="0.14 0.14 0.14 1"/>
+<geom name="stair_west94"  type="box" pos="-19.30 0 9.40" size="0.1 0.8 0.1" rgba="0.14 0.14 0.14 1"/>
+
+<geom name="stair_north95" type="box" pos="0 19.50 9.50" size="0.8 0.1 0.1" rgba="0.13 0.13 0.13 1"/>
+<geom name="stair_south95" type="box" pos="0 -19.50 9.50" size="0.8 0.1 0.1" rgba="0.13 0.13 0.13 1"/>
+<geom name="stair_east95"  type="box" pos="19.50 0 9.50" size="0.1 0.8 0.1" rgba="0.13 0.13 0.13 1"/>
+<geom name="stair_west95"  type="box" pos="-19.50 0 9.50" size="0.1 0.8 0.1" rgba="0.13 0.13 0.13 1"/>
+
+<geom name="stair_north96" type="box" pos="0 19.70 9.60" size="0.8 0.1 0.1" rgba="0.12 0.12 0.12 1"/>
+<geom name="stair_south96" type="box" pos="0 -19.70 9.60" size="0.8 0.1 0.1" rgba="0.12 0.12 0.12 1"/>
+<geom name="stair_east96"  type="box" pos="19.70 0 9.60" size="0.1 0.8 0.1" rgba="0.12 0.12 0.12 1"/>
+<geom name="stair_west96"  type="box" pos="-19.70 0 9.60" size="0.1 0.8 0.1" rgba="0.12 0.12 0.12 1"/>
+
+<geom name="stair_north97" type="box" pos="0 19.90 9.70" size="0.8 0.1 0.1" rgba="0.12 0.12 0.12 1"/>
+<geom name="stair_south97" type="box" pos="0 -19.90 9.70" size="0.8 0.1 0.1" rgba="0.12 0.12 0.12 1"/>
+<geom name="stair_east97"  type="box" pos="19.90 0 9.70" size="0.1 0.8 0.1" rgba="0.12 0.12 0.12 1"/>
+<geom name="stair_west97"  type="box" pos="-19.90 0 9.70" size="0.1 0.8 0.1" rgba="0.12 0.12 0.12 1"/>
+
+<geom name="stair_north98" type="box" pos="0 20.10 9.80" size="0.8 0.1 0.1" rgba="0.11 0.11 0.11 1"/>
+<geom name="stair_south98" type="box" pos="0 -20.10 9.80" size="0.8 0.1 0.1" rgba="0.11 0.11 0.11 1"/>
+<geom name="stair_east98"  type="box" pos="20.10 0 9.80" size="0.1 0.8 0.1" rgba="0.11 0.11 0.11 1"/>
+<geom name="stair_west98"  type="box" pos="-20.10 0 9.80" size="0.1 0.8 0.1" rgba="0.11 0.11 0.11 1"/>
+
+<geom name="stair_north99" type="box" pos="0 20.30 9.90" size="0.8 0.1 0.1" rgba="0.11 0.11 0.11 1"/>
+<geom name="stair_south99" type="box" pos="0 -20.30 9.90" size="0.8 0.1 0.1" rgba="0.11 0.11 0.11 1"/>
+<geom name="stair_east99"  type="box" pos="20.30 0 9.90" size="0.1 0.8 0.1" rgba="0.11 0.11 0.11 1"/>
+<geom name="stair_west99"  type="box" pos="-20.30 0 9.90" size="0.1 0.8 0.1" rgba="0.11 0.11 0.11 1"/>
+
+<geom name="stair_north100" type="box" pos="0 20.50 10.00" size="0.8 0.1 0.1" rgba="0.10 0.10 0.10 1"/>
+<geom name="stair_south100" type="box" pos="0 -20.50 10.00" size="0.8 0.1 0.1" rgba="0.10 0.10 0.10 1"/>
+<geom name="stair_east100"  type="box" pos="20.50 0 10.00" size="0.1 0.8 0.1" rgba="0.10 0.10 0.10 1"/>
+<geom name="stair_west100"  type="box" pos="-20.50 0 10.00" size="0.1 0.8 0.1" rgba="0.10 0.10 0.10 1"/>

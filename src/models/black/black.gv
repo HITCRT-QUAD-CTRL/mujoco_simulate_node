@@ -1,0 +1,53 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"FL_hip_link" [label="FL_hip_link"];
+"FL_thigh_link" [label="FL_thigh_link"];
+"FL_calf_link" [label="FL_calf_link"];
+"FL_toe_link" [label="FL_toe_link"];
+"FR_hip_link" [label="FR_hip_link"];
+"FR_thigh_link" [label="FR_thigh_link"];
+"FR_calf_link" [label="FR_calf_link"];
+"FR_toe_link" [label="FR_toe_link"];
+"RL_hip_link" [label="RL_hip_link"];
+"RL_thigh_link" [label="RL_thigh_link"];
+"RL_calf_link" [label="RL_calf_link"];
+"RL_toe_link" [label="RL_toe_link"];
+"RR_hip_link" [label="RR_hip_link"];
+"RR_thigh_link" [label="RR_thigh_link"];
+"RR_calf_link" [label="RR_calf_link"];
+"RR_toe_link" [label="RR_toe_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "FL_hip_joint" [label="xyz: 0.0966881 0.0556769 0.0551622 \nrpy: 0 -0 0"]
+"FL_hip_joint" -> "FL_hip_link"
+"FL_hip_link" -> "FL_thigh_joint" [label="xyz: 0.0967457 -0.0137224 -0.00082562 \nrpy: 1.5708 -0 0"]
+"FL_thigh_joint" -> "FL_thigh_link"
+"FL_thigh_link" -> "FL_calf_joint" [label="xyz: -0.200083 0.00738212 -0.1179 \nrpy: 0 -0 0"]
+"FL_calf_joint" -> "FL_calf_link"
+"FL_calf_link" -> "FL_toe_joint" [label="xyz: 0.20239 -0.11657 0.00625 \nrpy: -1.5708 0 0"]
+"FL_toe_joint" -> "FL_toe_link"
+"base_link" -> "FR_hip_joint" [label="xyz: 0.0966881 -0.0556595 0.0551937 \nrpy: 0 -0 0"]
+"FR_hip_joint" -> "FR_hip_link"
+"FR_hip_link" -> "FR_thigh_joint" [label="xyz: 0.0967122 0.013714 -0.000866025 \nrpy: 1.5708 -0 0"]
+"FR_thigh_joint" -> "FR_thigh_link"
+"FR_thigh_link" -> "FR_calf_joint" [label="xyz: -0.200049 0.00739109 0.1179 \nrpy: 0 -0 0"]
+"FR_calf_joint" -> "FR_calf_link"
+"FR_calf_link" -> "FR_toe_joint" [label="xyz: 0.20239 -0.11657 -0.00625 \nrpy: -1.5708 0 0"]
+"FR_toe_joint" -> "FR_toe_link"
+"base_link" -> "RL_hip_joint" [label="xyz: -0.0962119 0.0556679 0.0551957 \nrpy: 0 -0 0"]
+"RL_hip_joint" -> "RL_hip_link"
+"RL_hip_link" -> "RL_thigh_joint" [label="xyz: -0.0967122 -0.0137134 -0.000868052 \nrpy: 1.5708 -0 0"]
+"RL_thigh_joint" -> "RL_thigh_link"
+"RL_thigh_link" -> "RL_calf_joint" [label="xyz: -0.199838 0.000672362 -0.12665 \nrpy: 0 -0 0"]
+"RL_calf_joint" -> "RL_calf_link"
+"RL_calf_link" -> "RL_toe_joint" [label="xyz: 0.206194 -0.109702 0.015 \nrpy: -1.5708 0 0"]
+"RL_toe_joint" -> "RL_toe_link"
+"base_link" -> "RR_hip_joint" [label="xyz: -0.0962119 -0.0556678 0.0551622 \nrpy: 0 -0 0"]
+"RR_hip_joint" -> "RR_hip_link"
+"RR_hip_link" -> "RR_thigh_joint" [label="xyz: -0.0967457 0.0137224 -0.00082562 \nrpy: 1.5708 -0 0"]
+"RR_thigh_joint" -> "RR_thigh_link"
+"RR_thigh_link" -> "RR_calf_joint" [label="xyz: -0.199804 0.000663395 0.12665 \nrpy: 0 -0 0"]
+"RR_calf_joint" -> "RR_calf_link"
+"RR_calf_link" -> "RR_toe_joint" [label="xyz: 0.206199 -0.109696 -0.015 \nrpy: -1.5708 0 0"]
+"RR_toe_joint" -> "RR_toe_link"
+}

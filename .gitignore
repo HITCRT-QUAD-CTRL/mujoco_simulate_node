@@ -1,0 +1,8 @@
+build/
+install/
+log/
+
+# agent
+.claude
+CLAUDE.md
+.vscode/

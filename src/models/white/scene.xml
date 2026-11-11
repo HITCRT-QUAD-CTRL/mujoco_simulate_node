@@ -1,0 +1,253 @@
+<!-- <mujoco model="white scene">
+
+  <include file="white.xml"/>
+
+  <statistic center="0 0 0.1" extent="0.8"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global azimuth="120" elevation="-20"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+      markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+  </asset>
+
+  <worldbody>
+    <light pos="0 0 1.5" dir="0 0 -1" directional="true"/>
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
+  </worldbody>
+
+</mujoco> -->
+
+<mujoco model="white scene">
+
+  <!-- x = -2566 y = -2916-->
+  <include file="./white.xml"/>
+
+  <statistic center="0 0 0.1" extent="0.8"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global azimuth="120" elevation="-20"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+      markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <!-- <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+    <material name="plane" reflectance="0.3" texture="plane" texrepeat="1 1" texuniform="true" /> -->
+    <mesh name="small_slope" vertex="0 0 0 0 -1 0 -0.8 0 0 -0.8 -1 0 0 0 0.2 0 -1 0.2" />
+    <mesh name="big_slope1" vertex="0 0 0 -4 0 0 0 1 0 -4 1 0 0 1 0.2 -4 1 0.2" />
+    <mesh name="big_slope2" vertex="0 0 0 -4 0 0 0 1 0 -4 1 0 0 0 0.2 -4 0 0.2" />
+    <!-- 材质：橘黄色水性乳胶漆 -->
+    <material name="orange" rgba="0.875 0.459 0 1" shininess="1.0" specular="1.0"/>
+
+
+  </asset>
+  
+
+
+  <!-- <compiler angle="radian" meshdir="meshes" autolimits="true"/> -->
+  <!-- <option timestep="0.002" gravity="0 0 -9.81" wind="0 0 0" integrator="implicitfast"
+      density="1.225"
+      viscosity="1.8e-5" /> -->
+  <!-- <visual>
+      <global realtime="1" />
+      <quality shadowsize="2048" numslices="28" offsamples="4" />
+      <headlight diffuse="1 1 1" specular="0.5 0.5 0.5" active="1" />
+      <rgba fog="1 0 0 1" haze="1 1 1 1" />
+  </visual> -->
+
+  <worldbody>
+    <!-- <light pos="0 0 1.5" dir="0 0 -1" directional="true"/> -->
+    <!-- <geom name="floor" size="5 5 0.05" type="plane" material="groundplane"/> -->
+    <!-- ================= 场地 1（下方） ================= -->
+    <!-- 地面 -->
+    <!-- <light
+      name="field1_light"
+      pos="0 -3 4"
+      dir="0 0 -1"
+      directional="true"
+      diffuse="0.6 0.6 0.6"
+      ambient="0.2 0.2 0.2"/>
+
+    <light
+      name="field2_light"
+      pos="0 3 4"
+      dir="0 0 -1"
+      directional="true"
+      diffuse="0.6 0.6 0.6"
+      ambient="0.2 0.2 0.2"/> -->
+
+  <light
+    name="side_light"
+    pos="5 0 3"
+    dir="-1 0 -0.5"
+    directional="true"
+    diffuse="0.4 0.4 0.4"
+    ambient="0.1 0.1 0.1"/>
+
+
+
+    <geom type="plane"
+          name="field1_ground"
+          pos="0 -3 0"
+          size="7 3 0.1"
+          rgba="1 1 0 1"/>
+
+    <!-- 黑色外围线 -->
+    <!-- 下 -->
+    <geom type="box" pos="0 -6 0.0005" size="7 0.01 0.0005" rgba="0 0 0 1"/>
+    <!-- 上（中间分界） -->
+    <geom type="box" pos="0 0 0.0005" size="7 0.02 0.0005" rgba="0 0 0 1"/>
+    <!-- 左 -->
+    <geom type="box" pos="-7 -3 0.0005" size="0.01 3 0.0005" rgba="0 0 0 1"/>
+    <!-- 右 -->
+    <geom type="box" pos="7 -3 0.0005" size="0.01 3 0.0005" rgba="0 0 0 1"/>
+
+    <!-- ================= 场地 2（上方） ================= -->
+    <!-- 地面 -->
+    <geom type="plane"
+          name="field2_ground"
+          pos="0 3 0"
+          size="7 3 0.1"
+          rgba="1 1 0 1"/>
+
+    <!-- 黑色外围线 -->
+    <!-- 上 -->
+    <geom type="box" pos="0 6 0.0005" size="7 0.01 0.0005" rgba="0 0 0 1"/>
+    <!-- 左 -->
+    <geom type="box" pos="-7 3 0.0005" size="0.01 3 0.0005" rgba="0 0 0 1"/>
+    <!-- 右 -->
+    <geom type="box" pos="7 3 0.0005" size="0.01 3 0.0005" rgba="0 0 0 1"/>
+
+    <body pos="-3.03 4.95 0.0">
+      <include file="./test_arena/height_limit_bar_l.xml"/>
+    </body>
+    <body pos="-3.03 -4.95 0.0">
+      <include file="./test_arena/height_limit_bar_r.xml"/>
+    </body>
+    <body pos="-5.483 4.484 0.0">
+      <include file="./test_arena/gravel_wood_pit_l.xml"/>
+    </body>
+    <body pos="-5.483 -4.484 0.0">
+      <include file="./test_arena/gravel_wood_pit_r.xml"/>
+    </body>
+    <body pos="-2.50 3.00 0.0">
+      <include file="./test_arena/start_zone_l.xml"/>
+    </body>
+    <body pos="-2.50 -3.00 0.0">
+      <include file="./test_arena/start_zone_r.xml"/>
+    </body>
+    <!-- <body pos="0.35 0.0 0.151">
+      <include file="./test_arena/high_wall.xml"/>
+    </body> -->
+    <body pos="-1.05 1.133 0.15">
+      <include file="./test_arena/high_wall_r.xml"/>
+    </body>
+    <body pos="-1.05 -1.133 0.15">
+      <include file="./test_arena/high_wall_l.xml"/>
+    </body>
+    <body pos="-5.833 1.917 0.0">
+      <include file="./test_arena/right_angle_poles_r.xml"/>
+    </body>
+    <body pos="-5.833 -1.917 0.0">
+      <include file="./test_arena/right_angle_poles_l.xml"/>
+    </body>
+    <body pos="2.451 1.125 0.0">
+      <include file="./test_arena/t_shaped_steps_r.xml"/>
+    </body>
+    <body pos="2.451 -1.125 0.0">
+      <include file="./test_arena/t_shaped_steps_l.xml"/>
+    </body>
+    <!-- <body pos="4.451 -4.083 0.0">
+      <include file="./test_arena/jump_platform.xml"/>
+    </body> -->
+    <body name="platform" pos="6.383 -0.5 0.0" euler="0 0 0">
+      <!-- 小斜坡A  -->
+      <geom type="mesh" mesh="small_slope" pos="-1 0 0" material="orange"/>
+      <!-- 木桥A -->
+      <body name="bridge A" pos="0.0 0 0">
+          <geom type="box" size="0.5 0.5 0.1" pos="-0.5 -0.5 0.1" material="orange"/>
+          <geom type="box" size="0.5 0.2 0.1" pos="-0.5 -1.35 0.1" material="orange"/>
+          <geom type="box" size="0.5 0.2 0.1" pos="-0.5 -1.9 0.1" material="orange"/>
+          <geom type="box" size="0.5 0.2 0.1" pos="-0.5 -2.45 0.1" material="orange"/>
+          <geom type="box" size="0.5 0.2 0.1" pos="-0.5 -3 0.1" material="orange"/>
+          <geom type="box" size="0.5 0.2 0.1" pos="-0.5 -3.55 0.1" material="orange"/>
+          <geom type="box" size="1 0.5 0.1" pos="-1 -4.4 0.1" material="orange"/>
+      </body>
+      <!-- 小斜坡B -->
+      <geom type="mesh" mesh="small_slope" pos="-1 -3.9 0" euler="-1.5708 0 0" material="orange"/>
+      <!-- 木桥B -->
+      <body name="bridge B" pos="-2 -4.9 0">
+          <geom type="box" size="0.75 0.1 0.1" pos="-0.75 0.2 0.1" material="orange"/>
+          <geom type="box" size="0.75 0.1 0.1" pos="-0.75 0.5 0.1" material="orange"/>
+          <geom type="box" size="0.75 0.1 0.1" pos="-0.75 0.8 0.1" material="orange"/>
+          <geom type="box" size="0.5 0.5 0.1" pos="-2 0.5 0.1" material="orange"/>
+      </body>
+      <!-- 大斜坡 -->
+      <body name="big_slope" pos="-4.5 -4.9 0">
+          <geom type="mesh" mesh="big_slope1" pos="1 0 0" material="orange" />
+          <geom type="mesh" mesh="big_slope2" pos="1 1 0" material="orange" />
+      </body>
+    </body>
+
+    <body name="platform_mirror" pos="6.383 0.5 0.0" euler="0 0 0">
+
+      <!-- 小斜坡 A（y 取反） -->
+      <geom type="mesh"
+            mesh="small_slope"
+            pos="-1 1 0"
+            material="orange"/>
+
+      <!-- 木桥 A -->
+      <body name="bridge_A_mirror" pos="0.0 0 0">
+        <geom type="box" size="0.5 0.5 0.1" pos="-0.5 0.5 0.1" material="orange"/>
+        <geom type="box" size="0.5 0.2 0.1" pos="-0.5 1.35 0.1" material="orange"/>
+        <geom type="box" size="0.5 0.2 0.1" pos="-0.5 1.9 0.1" material="orange"/>
+        <geom type="box" size="0.5 0.2 0.1" pos="-0.5 2.45 0.1" material="orange"/>
+        <geom type="box" size="0.5 0.2 0.1" pos="-0.5 3.0 0.1" material="orange"/>
+        <geom type="box" size="0.5 0.2 0.1" pos="-0.5 3.55 0.1" material="orange"/>
+        <geom type="box" size="1 0.5 0.1" pos="-1 4.4 0.1" material="orange"/>
+      </body>
+
+      <!-- 小斜坡 B（y 取反，euler 同时翻） -->
+      <geom type="mesh"
+            mesh="small_slope"
+            pos="-2 3.9 0"
+            euler="1.5708 0 0"
+            material="orange"/>
+
+      <!-- 木桥 B -->
+      <body name="bridge_B_mirror" pos="-2 4.9 0">
+        <geom type="box" size="0.75 0.1 0.1" pos="-0.75 -0.2 0.1" material="orange"/>
+        <geom type="box" size="0.75 0.1 0.1" pos="-0.75 -0.5 0.1" material="orange"/>
+        <geom type="box" size="0.75 0.1 0.1" pos="-0.75 -0.8 0.1" material="orange"/>
+        <geom type="box" size="0.5 0.5 0.1" pos="-2 -0.5 0.1" material="orange"/>
+      </body>
+
+      <!-- 大斜坡 -->
+      <body name="big_slope_mirror" pos="-4.5 4.9 0">
+        <geom type="mesh" mesh="big_slope1" pos="1 -2 0" material="orange"/>
+        <geom type="mesh" mesh="big_slope2" pos="1 -1 0" material="orange"/>
+      </body>
+
+    </body>
+
+
+ 
+
+    
+
+  </worldbody>
+
+</mujoco>
+
+

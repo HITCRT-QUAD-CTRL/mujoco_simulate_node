@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="height_limit_task">
+    <compiler angle="radian" autolimits="true"/>
+    <option timestep="0.002" gravity="0 0 -9.81" density="1.225" viscosity="1.8e-5" />
+    <include file="../black.xml"/>
+    <visual>
+        <global realtime="1" />
+        <quality shadowsize="2048" />
+        <headlight diffuse="0.8 0.8 0.8" active="1" />
+    </visual>
+
+    <asset>
+        <texture type="skybox" builtin="gradient" rgb1="0.9 0.9 1" rgb2="0.6 0.8 1" width="512" height="512"/>
+        <texture name="grid" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 .15 .2" width="512" height="512"/>
+        <material name="grid_mat" texture="grid" texrepeat="2 2" texuniform="true" reflectance=".2"/>
+        
+        <!-- 材质定义 -->
+        <!-- 竖杆与底座：黄色 -->
+        <material name="pole_yellow" rgba="0.9 0.9 0.1 1.0" shininess="0.5" specular="0.5"/>
+        <!-- 横杆：蓝色 -->
+        <material name="bar_blue" rgba="0.1 0.1 0.9 1.0" shininess="0.3" specular="0.3"/>
+        <!-- 横杆：白色 -->
+        <material name="bar_white" rgba="0.95 0.95 0.95 1.0" shininess="0.3" specular="0.3"/>
+    </asset>
+
+    <worldbody>
+        <!-- 地面 -->
+        <geom name="floor" size="3 3 .1" type="plane" material="grid_mat" pos="0 0 0"/>
+        <light pos="0 0 5" dir="0 0 -1" diffuse="0.8 0.8 0.8"/>
+
+        <!-- ================= 限高杆整体结构 ================= -->
+        <!-- 整体移动：修改 body 的 pos 即可 -->
+        <body name="height_limit_obstacle" pos="0 0 0">
+            
+            <!-- 1. 左侧支撑 (Left Support) -->
+            <!-- 位置：X = -0.5 (总长1m的一半) -->
+            <body name="left_pole" pos="-0.5 0 0">
+                <!-- 底座：扁圆柱 -->
+                <geom type="cylinder" size="0.08 0.005" pos="0 0 0.005" material="pole_yellow"/>
+                <!-- 竖杆：高度略高于横杆，设为 0.35m -->
+                <geom type="cylinder" size="0.015 0.175" pos="0 0 0.175" material="pole_yellow"/>
+            </body>
+
+            <!-- 2. 右侧支撑 (Right Support) -->
+            <!-- 位置：X = 0.5 -->
+            <body name="right_pole" pos="0.5 0 0">
+                <!-- 底座 -->
+                <geom type="cylinder" size="0.08 0.005" pos="0 0 0.005" material="pole_yellow"/>
+                <!-- 竖杆 -->
+                <geom type="cylinder" size="0.015 0.175" pos="0 0 0.175" material="pole_yellow"/>
+            </body>
+
+            <!-- 3. 蓝白相间横杆 (Crossbar) -->
+            <!-- 逻辑：横杆长1m，分5段，每段0.2m。颜色：蓝-白-蓝-白-蓝 -->
+            <!-- 高度计算：底部距地0.3m + 半径0.015m = 中心高度 0.315m -->
+            <!-- 旋转：euler="0 1.57 0" (绕Y轴旋转90度，使圆柱横置) -->
+            
+            <body name="crossbar" pos="0 0 0.315">
+                <!-- Segment 1 (最左): -0.4 -->
+                <geom type="cylinder" size="0.015 0.1" pos="-0.4 0 0" euler="0 1.57 0" material="bar_blue"/>
+                
+                <!-- Segment 2 (左中): -0.2 -->
+                <geom type="cylinder" size="0.015 0.1" pos="-0.2 0 0" euler="0 1.57 0" material="bar_white"/>
+                
+                <!-- Segment 3 (中间): 0.0 -->
+                <geom type="cylinder" size="0.015 0.1" pos="0.0 0 0" euler="0 1.57 0" material="bar_blue"/>
+                
+                <!-- Segment 4 (右中): 0.2 -->
+                <geom type="cylinder" size="0.015 0.1" pos="0.2 0 0" euler="0 1.57 0" material="bar_white"/>
+                
+                <!-- Segment 5 (最右): 0.4 -->
+                <geom type="cylinder" size="0.015 0.1" pos="0.4 0 0" euler="0 1.57 0" material="bar_blue"/>
+            </body>
+
+        </body>
+    </worldbody>
+</mujoco>

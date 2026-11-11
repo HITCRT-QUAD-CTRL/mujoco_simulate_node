@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="template">
+    <compiler angle="radian" meshdir="meshes" autolimits="true"/>
+    <option timestep="0.002" gravity="0 0 -9.81" wind="0 0 0" integrator="implicitfast"
+        density="1.225"
+        viscosity="1.8e-5" />
+    <visual>
+        <global realtime="1" />
+        <quality shadowsize="2048" numslices="28" offsamples="4" />
+        <headlight diffuse="1 1 1" specular="0.5 0.5 0.5" active="1" />
+        <rgba fog="1 0 0 1" haze="1 1 1 1" />
+    </visual>
+    <asset>
+        <texture type="skybox" file="./assets/desert.png"
+            gridsize="3 4" gridlayout=".U..LFRB.D.." />
+        <texture name="plane" type="2d" builtin="checker" rgb1=".1 .1 .1" rgb2=".9 .9 .9"
+            width="512" height="512" mark="cross" markrgb=".8 .8 .8" />
+        <material name="plane" reflectance="0.3" texture="plane" texrepeat="1 1" texuniform="true" />
+    </asset>
+    <worldbody>
+        <geom name="floor" pos="0 0 0" size="10 10 .1" type="plane" material="plane" condim="3"/>
+        <light directional="true" ambient=".3 .3 .3" pos="30 30 30" dir="0 -2 -1"
+            diffuse=".5 .5 .5" specular=".5 .5 .5" />
+
+    </worldbody>
+</mujoco>

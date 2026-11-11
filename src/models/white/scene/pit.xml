@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="gravel_wood_pit">
+    <compiler angle="radian" autolimits="true"/>
+    <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast" density="1.225" viscosity="1.8e-5" />
+    <visual>
+        <global realtime="1" />
+        <quality shadowsize="2048" />
+        <headlight diffuse="1 1 1" active="1" />
+    </visual>
+
+    <asset>
+        <texture type="skybox" builtin="gradient" rgb1="0.9 0.9 1" rgb2="0.6 0.8 1" width="512" height="512"/>
+        <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb1=".2 .3 .4" rgb2=".1 .15 .2"/>
+        <material name="grid" texture="grid" texrepeat="2 2" texuniform="true" reflectance=".2"/>
+        
+        <!-- 材质定义 -->
+        <!-- 护栏：橘黄色 -->
+        <material name="border_mat" rgba="1.0 0.65 0.0 1.0" shininess="0.5"/>
+        <!-- 砂砾 (鹅卵石)：灰色 -->
+        <material name="stone_mat" rgba="0.6 0.6 0.6 1.0" shininess="0.2"/>
+        <!-- 碎木：木色 -->
+        <material name="wood_mat" rgba="0.6 0.4 0.2 1.0" shininess="0.1"/>
+
+        <hfield name="gravel" file="assets/height_field.png" size="0.5 1 0.02 1" />
+    </asset>
+
+    <worldbody>
+        <!-- 地面 -->
+        <geom name="floor" size="5 5 .1" type="plane" material="grid"/>
+        <light pos="0 0 5" dir="0 0 -1" diffuse="0.8 0.8 0.8"/>
+
+        <!-- ================= L型坑容器 ================= -->
+        <!-- 设定：L型外边缘长2m，宽1m。坑深约100mm，护栏高150mm。-->
+        <!-- 坐标系：以L型转角处为中心，方便定位 -->
+        
+        <body name="pit_container" pos="0 0 0.005">
+
+            <!-- === 护栏 (Walls) 高 0.15m === -->
+            <!-- 尺寸计算基于 L 型 2000mm 长, 1000mm 宽 -->
+            
+            <!-- 外侧长边 (左) -->
+            <geom type="box" size="0.01 1.0 0.075" pos="-1.0 0.0 0.075" material="border_mat"/>
+            <!-- 外侧长边 (下) -->
+            <geom type="box" size="1.0 0.01 0.075" pos="0.0 -1.0 0.075" material="border_mat"/>
+            
+            <!-- 内侧短边 (左上) -->
+            <geom type="box" size="0.01 0.5 0.075" pos="0.0 0.5 0.075" material="border_mat"/>
+            <!-- 内侧短边 (右下) -->
+            <geom type="box" size="0.5 0.01 0.075" pos="0.5 -0.0 0.075" material="border_mat"/>
+            
+            <!-- 封口边 (上) -->
+            <geom type="box" size="0.5 0.01 0.075" pos="-0.5 1.0 0.075" material="border_mat"/>
+            <!-- 封口边 (右) -->
+            <geom type="box" size="0.01 0.5 0.075" pos="1.0 -0.5 0.075" material="border_mat"/>
+
+            <!-- 中间分隔板 (对角线) -->
+            <!-- 位于转角处 (-0.5, -0.5)，旋转 -45度 -->
+            <body name="divider" pos="-0.5 -0.5 0.075" euler="0 0 -0.785">
+                 <geom type="box" size="0.01 0.7 0.075" material="border_mat"/>
+            </body>
+
+            <!-- ================= 使用 Composite 生成填充物 ================= -->
+        
+            <!-- 1. 左侧：砂砾区 (Spheres) -->
+            <!-- <body name="gravel_zone" pos="-0.5 0.5 0.05">
+                <composite type="grid" count="12 12 1" spacing="0.07" prefix="stone">
+                    <joint kind="main" damping="0.01" stiffness="0"/>
+                    <geom type="sphere" size="0.035" material="stone_mat" friction="0.8 0.02 0.01" density="2000" solref="0.02 1"/>
+                </composite>
+            </body> -->
+
+            <!-- 2. 右侧：碎木区 (改为 Ellipsoids) -->
+            <!-- 修改说明：用扁平的椭球体代替 Box，MuJoCo 支持 -->
+            <!-- <body name="wood_zone" pos="0.5 -0.5 0.05">
+                <composite type="grid" count="12 12 1" spacing="0.07" prefix="chip">
+                    <joint kind="main" damping="0.05" stiffness="0"/> -->
+                    
+                    <!-- size="x y z" (半轴长) -->
+                    <!-- 设置 x,y 较大，z 很小，形成一个扁平的“片状”物体 -->
+                    <!-- <geom type="ellipsoid" size="0.04 0.03 0.015" material="wood_mat" friction="0.9 0.05 0.01" density="600" solref="0.02 1"/>
+                </composite>
+            </body> -->
+        </body>
+        <geom type="hfield" hfield="gravel" pos="-0.5 0 0.1" />
+        <geom type="hfield" hfield="gravel" pos="0.0 -0.5 0.1" euler="0 0 1.57"/>
+    </worldbody>
+</mujoco>
