@@ -1,9 +1,8 @@
 # 全局参数
 # scene_name: "scene"      # 障碍赛 (默认)
-# scene_name: "scene_task"  # 任务赛
 /**:
   ros__parameters:
-    model_name: "black_task"
+    model_name: "black"
     scene_name: "scene"
     is_gpu_accelerated: false
     is_use_cheat_mode: true
